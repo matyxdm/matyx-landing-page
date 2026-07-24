@@ -144,6 +144,8 @@ h2.display { color: var(--navy); font-size: clamp(26px, 3.4vw, 46px); max-width:
 }
 .nav-links a:not(.btn):hover::after { width: 100%; }
 .nav-links .btn { padding: 10px 22px; }
+.nav-links .btn-blue,
+.nav-links .btn-blue:hover { color: var(--white); }
 .nav-phone { font-family: var(--font-mono); font-size: 12px; letter-spacing: .06em; }
 @media (max-width: 980px) { .nav-links a:not(.btn) { display: none; } }
 
